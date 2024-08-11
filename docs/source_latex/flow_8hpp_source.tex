@@ -1,0 +1,41 @@
+\doxysection{flow.\+hpp}
+\hypertarget{flow_8hpp_source}{}\label{flow_8hpp_source}\index{MyVensim/src/flow.hpp@{MyVensim/src/flow.hpp}}
+\mbox{\hyperlink{flow_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00001}00001\ \textcolor{preprocessor}{\#ifndef\ FLOW\_HPP}}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00002}00002\ \textcolor{preprocessor}{\#define\ FLOW\_HPP}}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{system_8hpp}{system.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00008}\mbox{\hyperlink{class_flow}{00008}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_flow}{Flow}}}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00009}00009\ \{}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00010}00010\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00011}\mbox{\hyperlink{class_flow_a5a29a335d981204049ac2a04d64a34bd}{00011}}\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_flow_a5a29a335d981204049ac2a04d64a34bd}{id}};}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00012}\mbox{\hyperlink{class_flow_a963ca162995d112f0f30322e2bb9de63}{00012}}\ \ \ \ \ \mbox{\hyperlink{class_system}{System}}\ *\mbox{\hyperlink{class_flow_a963ca162995d112f0f30322e2bb9de63}{source}};}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00013}\mbox{\hyperlink{class_flow_a4e775eb137c4734ca84294a3ef8cd730}{00013}}\ \ \ \ \ \mbox{\hyperlink{class_system}{System}}\ *\mbox{\hyperlink{class_flow_a4e775eb137c4734ca84294a3ef8cd730}{destiny}};}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00015}00015\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00016}00016\ \ \ \ \ \mbox{\hyperlink{class_flow_ac9975e144e606242748197798e87dd32}{Flow}}();}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00017}00017\ \ \ \ \ \mbox{\hyperlink{class_flow_ac9975e144e606242748197798e87dd32}{Flow}}(\mbox{\hyperlink{class_flow}{Flow}}\ \&\textcolor{keywordtype}{object});}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00018}00018\ \ \ \ \ \mbox{\hyperlink{class_flow_ac9975e144e606242748197798e87dd32}{Flow}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ \textcolor{keywordtype}{id},\ \mbox{\hyperlink{class_system}{System}}\ *\mbox{\hyperlink{class_flow_a963ca162995d112f0f30322e2bb9de63}{source}},\ \mbox{\hyperlink{class_system}{System}}\ *\mbox{\hyperlink{class_flow_a4e775eb137c4734ca84294a3ef8cd730}{destiny}});}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00019}00019\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_flow_a5991efa6e8cf88c4ef2125cc727db333}{\string~Flow}}();}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00020}00020\ }
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00021}00021\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_flow_a157e232695a54f7e5f43e20d49334718}{getId}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00022}00022\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_flow_aa482695ecb7153faa86a76ea74328dba}{setId}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00023}00023\ \ \ \ \ \mbox{\hyperlink{class_system}{System}}\ *\mbox{\hyperlink{class_flow_a1f3858f90d141807377c2640fb5dd0fc}{getSource}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00024}00024\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_flow_a250fc53158862fc0db77b323a33e48a3}{setSource}}(\mbox{\hyperlink{class_system}{System}}\ *\mbox{\hyperlink{class_flow_a963ca162995d112f0f30322e2bb9de63}{source}});}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00025}00025\ \ \ \ \ \mbox{\hyperlink{class_system}{System}}\ *\mbox{\hyperlink{class_flow_ab3c2a952d50fdbd634c5766670b157b2}{getDestiny}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00026}00026\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_flow_a677fe86f0b57572daccb88df69c6865b}{setDestiny}}(\mbox{\hyperlink{class_system}{System}}\ *\mbox{\hyperlink{class_flow_a4e775eb137c4734ca84294a3ef8cd730}{destiny}});}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00028}00028\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_flow_ac26991d5d55a506a2927c8b14b57789b}{operator==}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_flow}{Flow}}\ \&\textcolor{keywordtype}{object})\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00029}00029\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_flow_a79fd32e153702d04a623d56eb314b2f7}{operator!=}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_flow}{Flow}}\ \&\textcolor{keywordtype}{object})\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00030}00030\ \ \ \ \ \mbox{\hyperlink{class_flow}{Flow}}\ \&\mbox{\hyperlink{class_flow_a56b6b7077ca5ec5540aae5a8a259a5a0}{operator=}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_flow}{Flow}}\ \&\textcolor{keywordtype}{object});}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00032}\mbox{\hyperlink{class_flow_a0da37d87c3c4846e576fc13f4241640e}{00032}}\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_flow_a0da37d87c3c4846e576fc13f4241640e}{execute}}()\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00033}00033\ \};}
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00034}00034\ }
+\DoxyCodeLine{\Hypertarget{flow_8hpp_source_l00035}00035\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
