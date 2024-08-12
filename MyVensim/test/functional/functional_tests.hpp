@@ -13,8 +13,25 @@
 #ifndef FUNCTIONAL_TESTS
 #define FUNCTIONAL_TESTS
 
+/**
+ * @brief This function performs the exponential functional test
+ *
+ * @param
+ * @returns
+ */
 void exponentialFunctionalTest();
+/**
+ * @brief This function performs the logistic test
+ * @param
+ * @returns
+ */
 void logisticalFunctionalTest();
+/**
+ * @brief This function runs the "complex" test, which has multiple systems and flows
+ *
+ * @param
+ * @returns
+ */
 void complexFunctionalTest();
 
 #endif

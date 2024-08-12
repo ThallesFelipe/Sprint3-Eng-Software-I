@@ -1,0 +1,5 @@
+<map id="operator=" name="operator=">
+<area shape="rect" id="Node000001" title="This method is overloading the &#39;=&#39; operator, &quot;cloning&quot; from one model to another." alt="" coords="5,5,82,32"/>
+<area shape="rect" id="Node000002" href="$class_model.html#ac8bb3912a3ce86b15842e79d0b421204" title="this method is to clean the model." alt="" coords="130,5,179,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,16,114,16,114,21,82,21"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="getSource" name="getSource">
+<area shape="rect" id="Node000001" title="get source flow" alt="" coords="224,31,304,57"/>
+<area shape="rect" id="Node000002" href="$class_flow_exponential.html#a25249770aa1ed0aaaad2291fdb68add7" title="execute virtual" alt="" coords="5,5,176,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,39,176,34,176,29,209,33"/>
+<area shape="rect" id="Node000003" href="$class_flow.html#a450b7e42fb84cc1f0c76a7e2634e1d32" title="Comparison operator for flow." alt="" coords="48,56,133,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,55,134,66,133,61,208,49"/>
+</map>

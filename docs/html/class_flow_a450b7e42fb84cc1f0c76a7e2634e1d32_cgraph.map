@@ -1,0 +1,9 @@
+<map id="operator==" name="operator==">
+<area shape="rect" id="Node000001" title="Comparison operator for flow." alt="" coords="5,56,90,83"/>
+<area shape="rect" id="Node000002" href="$class_flow.html#a63004adf93dac9e816082e790afc99c4" title="get destiny flow" alt="" coords="138,5,221,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,53,127,36,129,41,85,58"/>
+<area shape="rect" id="Node000003" href="$class_flow.html#ac53754d88acc2c8e8b87531240d0f3f7" title="get user id" alt="" coords="155,56,204,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="90,67,139,67,139,72,90,72"/>
+<area shape="rect" id="Node000004" href="$class_flow.html#aece93ffa275bfac74921dfa19d7cf6ac" title="get source flow" alt="" coords="139,107,220,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="85,81,129,98,127,103,83,86"/>
+</map>

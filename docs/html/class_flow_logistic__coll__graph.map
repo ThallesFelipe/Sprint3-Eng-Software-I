@@ -1,0 +1,7 @@
+<map id="FlowLogistic" name="FlowLogistic">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,188,99,215"/>
+<area shape="rect" id="Node000002" href="$class_flow.html" title=" " alt="" coords="28,112,76,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,154,55,188,49,188,49,154"/>
+<area shape="rect" id="Node000003" href="$class_system.html" title=" " alt="" coords="19,5,85,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="55,47,55,112,49,112,49,47"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="logisticalFunctionalTest" name="logisticalFunctionalTest">
+<area shape="rect" id="Node000001" title="This function performs the logistic test." alt="" coords="5,132,163,159"/>
+<area shape="rect" id="Node000002" href="$class_model.html#ae4d749689ba490e2a74d64bb10721a94" title="this method adds a system" alt="" coords="223,5,308,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,130,146,88,209,42,217,37,220,42,212,46,149,92,102,134"/>
+<area shape="rect" id="Node000003" href="$class_model.html#a7b8102ec95ed8796b01501bf054a3330" title="this method is to clean the model." alt="" coords="220,56,312,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,129,217,87,219,92,119,134"/>
+<area shape="rect" id="Node000004" href="$class_model.html#a9fc8e117e36e623c41ea8485d776c508" title="this method is to execute the model." alt="" coords="211,157,321,184"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,154,195,158,195,163,163,159"/>
+<area shape="rect" id="Node000005" href="$class_system.html#aa7d17369d1034e7d8643a63f69d1901d" title="This method returns the value of a system." alt="" coords="369,107,494,133"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="163,137,354,123,354,128,163,142"/>
+<area shape="rect" id="Node000007" href="$class_model.html#a4569c9b0000dbb1131db842c6b539044" title="This method assigns the name to a string." alt="" coords="220,208,312,235"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="119,157,219,199,217,204,117,162"/>
+<area shape="rect" id="Node000008" href="$class_model.html#ae30ecc31e31c20868d4227b7d77b3636" title="this method is to show the model." alt="" coords="219,259,313,285"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="102,157,149,198,212,244,220,249,217,254,209,249,146,203,98,161"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="311,154,370,136,372,141,313,159"/>
+<area shape="rect" id="Node000006" href="$class_system.html#a5343de0a45485edd88bc87f338fe9a19" title="This method assigns the value to a string." alt="" coords="369,157,494,184"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="321,168,353,168,353,173,321,173"/>
+</map>
